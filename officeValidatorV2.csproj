@@ -86,9 +86,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="officeValidatorV2_TemporaryKey.pfx" />
+    <None Include="publish\Application Files\officeValidatorV2_1_0_0_3\office.ico.deploy" />
+    <None Include="publish\Application Files\officeValidatorV2_1_0_0_3\officeValidatorV2.application" />
+    <None Include="publish\Application Files\officeValidatorV2_1_0_0_3\officeValidatorV2.exe.deploy" />
+    <None Include="publish\Application Files\officeValidatorV2_1_0_0_3\officeValidatorV2.exe.manifest" />
+    <None Include="publish\officeValidatorV2.application" />
+    <None Include="publish\officeValidatorV2BySwer0100.zip" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="office.ico" />
+    <Content Include="publish\setup.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
